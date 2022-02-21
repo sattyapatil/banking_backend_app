@@ -31,7 +31,7 @@
 1. After starting application go to the [http://127.0.0.1:5000](http://127.0.0.1:5000)
 2. Application includes four endpoints
    1. "/" - GET - return all the transaction data
-   2. "/transactions/`date`" - GET - returns all transaction for specific date
+   2. "/transactions/`date`" - GET - returns all transaction for specific date (date format 10-02-22)
    3. "/balance/`date`" - GET - return the balance amount at the end of the day
    4. "/details/`id`" - GET - return transaction detail for transaction id
    5. "/add" - POST - save transaction data
